@@ -25,7 +25,7 @@ const socialMediaLinks = {
   github: "https://github.com/cRYP70n-13",
   linkedin: "https://www.linkedin.com/in/otmane-kimdil/",
   gmail: "otmane.kimdil@gmail.com",
-  gitlab: " ",
+  gitlab: "", // TODO: Put ur gitlab link here
   facebook: "https://www.facebook.com/otmane.ki.12/",
   twitter: "https://twitter.com/Okimdil",
   instagram: "https://www.instagram.com/otmanecode/",
@@ -245,6 +245,13 @@ const skills = {
             color: "#1488C6",
           },
         },
+		{
+		  skillName: "Kubernetes",
+		  fontAwesomeClassname: "simple-icons:kubernetes",
+		  style: {
+			color: "#326CE5",
+		  },
+        },
       ],
     },
   ],
@@ -253,22 +260,23 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "SAL Engineering and Technical Institute",
+      title: "Information Technology architect",
       subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "sal.png",
-      alt_name: "SETI",
-      duration: "2017 - Present",
+	  logo_path: "sal.png", // TODO: Change this photo and put 1337 logo.
+      alt_name: "1337",
+      duration: "2019 - Present",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
+        "⚡ I have also completed various online courses for container orchestration, System design, Web Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://www.sal.edu.in/",
+      website_link: "https://www.1337.ma/",
     },
   ],
 };
 
 const certifications = {
+	// TODO: I should also put all my certifications here
   certifications: [
     {
       title: "Deep Learning Specialization",
@@ -519,9 +527,9 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "opPortfolio",
-      url: "https://github.com/Hrishi1999/opPortfolio",
-      description: "(This) A clean and full customizable portfolio template.",
+      name: "Portfolio",
+      url: "https://github.com/cRYP70n-13/portfolio",
+      description: "Clean and full customizable portfolio.",
       languages: [
         {
           name: "ReactJS",
@@ -531,120 +539,58 @@ const projects = {
     },
     {
       id: "1",
-      name: "Cab Security System",
+      name: "Amazon Price Tracker",
       url: " ",
       description:
-        "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
+        "I built an amazon scrapper that extract data from the page and put it in a JSON file",
       languages: [
         {
           name: "Python",
           iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "2",
-      name: "Lensinator",
-      url: " ",
-      description:
-        "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
         },
       ],
     },
     {
       id: "12",
-      name: "Doorbell.io",
-      url: "https://github.com/Hrishi1999/Doorbell.io",
+      name: "Online Learning Platform API",
+      url: "https://github.com/cRYP70n-13/Online_learning_API",
       description:
-        "A sound-classifier webapp made with ReactJS + TensorflowJS.",
+        "An Online learning platform in the days of quarantine to help student continue their studies from home",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "NodeJS",
+          iconifyClass: "logos-nodejs-icon",
         },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "TensorflowJS",
-          iconifyClass: "logos-tensorflow",
-        },
+		{
+		  name: "MongoDB",
+		  iconifyClass: "logos-mongodb"
+		},
+		{
+		  name: "Docker",
+		  iconifyClass: "logos-docker"
+		}
       ],
     },
     {
       id: "13",
-      name: "Video Summarization (WIP)",
-      url: "https://github.com/Hrishi1999/Video-Summarization",
+      name: "Cub3d",
+      url: "https://github.com/cRYP70n-13/Cub3d_DONE",
       description:
-        "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
+        "A 3D game enginge using C programming language and raycasting algorithm, from parsing the config file till rendring the 3D game",
       languages: [
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Dashboard Activity",
-      url: "https://github.com/Hrishi1999/Dashboard.activity",
-      description:
-        "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "C Programming",
+          iconifyClass: "logos-cIcon",
         },
       ],
     },
     {
       id: "4",
-      name: "Project Pickle",
-      url: " ",
+      name: "A* Path Finding Visualizer",
+		url: "https://github.com/cRYP70n-13/Path_finding_Visualizer",
       description:
-        "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
+        "This is a path finding visualizer built with the tkinter library and the A* Algorithm to do some visual effects and trace the shortest path between the two dots inside of a grid",
       languages: [
-        {
-          name: "Java",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
         {
           name: "Python",
           iconifyClass: "logos-python",
@@ -749,46 +695,6 @@ const projects = {
         {
           name: "Python",
           iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Object + Face Detection",
-      url: " ",
-      description: "2017 project. Object detection + accurate face detection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Image Captioning with Visual Attention",
-      url: " ",
-      description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
         },
       ],
     },
