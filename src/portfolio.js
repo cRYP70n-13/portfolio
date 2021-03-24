@@ -397,53 +397,22 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've gained a lot of experience working with clients around the world, working on highly challenging projects with new technologies and new ways to do things. 🚀",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Internships",
+      title: "Work Experience",
       experiences: [
         {
-          title: "Google Summer of Code",
-          company: "Sugar Labs",
-          company_url: "https://sugarlabs.org/",
+          title: "Web Developper freelancer",
+          company: "Self employed",
+          company_url: "https://www.github.com/cRYP70n-13",
           logo_path: "google_logo.png",
-          duration: "May 2019 - Aug 2019",
+          duration: "May 2019 - ongoing",
           location: "Work From Home",
           description:
-            "I worked on the Dashboard project which helps users track their activities while using Sugar OS. I also worked on making a Tamagotchi-like widget for Sugar's Home Screen",
+            "I work with a lot of clients around the world building a lot of projects from designing the system till deploying the whole application and this inclues Coding, bug fixing, Scaling and optimizing the runtime of the algorithms.",
           color: "#ee3c26",
-        },
-        {
-          title: "Android App Developer Intern",
-          company: "IAS4Sure",
-          company_url: " ",
-          logo_path: "buld.jpg",
-          duration: "December 2019 - February 2020",
-          location: "Work From Home",
-          description:
-            "Internship task was to make a native Android application. ",
-          color: "#0071C5",
-        },
-        {
-          title: "Web Developer",
-          company: "Wrighter Writing Solutions",
-          company_url: " ",
-          logo_path: "wrighter.jpg",
-          duration: "August 2020",
-          location: "",
-          description: "Develop a website using PHP and jQuery.",
-          color: "#56A4D3",
-        },
-        {
-          title: "Front-End Developer",
-          company: "VJ TechServe",
-          company_url: " ",
-          logo_path: "vjt.png",
-          duration: "September 2020",
-          location: "",
-          description: "Develop a portfolio website using ReactJS",
-          color: "#800000",
         },
       ],
     },
@@ -451,46 +420,25 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Summer of Code Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
+          title: "Google Hash Code competition",
+          company: "Google",
+          company_url: "https://google.com/",
           logo_path: "google_logo.png",
-          duration: "Summer of 2017 / 18 / 20",
-          location: " ",
+          duration: "Summer of 2019",
+          location: "Benguerir",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+            "I participated with my team to organize Google Hash code competition, also participating as a competitore and winning the first place in Morocco.",
           color: "#4285F4",
         },
         {
-          title: "Google Code-In Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "Winter of 2017 / 18 / 19",
-          location: " ",
-          description:
-            "Day to day resposibilites of this mentorship was to help out children aged 13-17 get started with programming and open-source, review their work and approve them.",
-          color: "#D83B01",
-        },
-        {
-          title: "Board Member at Codeuino",
-          company: " ",
-          company_url: " ",
-          logo_path: "codeuino.jpg",
-          duration: "2018 - 2019",
-          location: " ",
-          description: "Previous Board during early days of Codeuino",
-          color: "#D83B01",
-        },
-        {
-          title: "BluWings Club",
-          company: " ",
+          title: "Programming Club in High school",
+          company: "",
           company_url: " ",
           logo_path: "b.png",
-          duration: "2018 - On Going",
+          duration: "2018 - 2019",
           location: " ",
           description:
-            "Co-Founder and President of the programming club called BluWings. Have organized several workshops which introduced programming and related tools to freshers.",
+            "Co-Founder and President of the programming club called GeekForCode. Have organized several workshops which introduced programming and related tools to freshers.",
           color: "#D83B01",
         },
       ],
@@ -502,7 +450,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create web and DevOps projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -599,102 +547,48 @@ const projects = {
     },
     {
       id: "5",
-      name: "Project Health Card",
+      name: "ft_server",
       url: "",
       description:
-        "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
+        "A complete LAMP server inside of a contaner with wordpress running inside it using docker",
       languages: [
         {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
+          name: "Docker",
+          iconifyClass: "logos-docker",
         },
       ],
     },
     {
       id: "6",
-      name: "Food Classifier",
-      url: " ",
+      name: "Algorithms",
+      url: "https://wwww.github.com/cRYP70n-13/Algorithms",
       description:
-        "A food classifier app using tflite which classfier over 50 Indian Dishes.",
+        "Some Algorithms and Data Strcutures implemented using multiple language like C/C++, JavaScript and Python",
       languages: [
         {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
+          name: "C/C++",
+          iconifyClass: "logos-cIcon",
         },
         {
-          name: "Dart",
-          iconifyClass: "logos-dart",
+          name: "Javascript",
+          iconifyClass: "logos-javascript",
         },
         {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
+          name: "Python",
+          iconifyClass: "logos-python",
         },
       ],
     },
     {
       id: "7",
-      name: "Image Clustering",
-      url: " ",
+      name: "GoLang Compiler",
+      url: "https://www.github.com/cRYP70n-13/GoLangCompiler",
       description:
-        "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
+        "A simple compiler for my own programming language written in GoLang",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Antivirus",
-      url: " ",
-      description:
-        "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Sugar on Windows",
-      url: " ",
-      description:
-        "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "GoLang",
+          iconifyClass: "logos-golang",
         },
       ],
     },
